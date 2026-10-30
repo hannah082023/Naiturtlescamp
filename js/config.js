@@ -9,15 +9,16 @@ window.CAMP_CONFIG = {
 
   // 首頁右上的狀態格會依現在時間自動切換：
   regDeadlineISO: "2026-12-20T23:59:59+08:00",  // 報名截止
-  campStartISO:   "2027-02-08T13:00:00+08:00",  // 報到時間
-  campEndISO:     "2027-02-12T17:00:00+08:00",  // 結束時間
+  campStartISO:   "2027-01-29T13:00:00+08:00",  // 報到時間
+  campEndISO:     "2027-02-02T17:00:00+08:00",  // 結束時間
 
   // 不想顯示就設成 null
-  nextCamp: { name: "ESC30th", startISO: "2028-02-05T13:00:00+08:00" },
+  nextCamp: null,
 
   // 外部連結
-  applyFormURL: "https://forms.gle/uqSboLAzN2wxKiBq9",
+  applyFormURL: "https://forms.gle/DeQwXCnQo9dceE63A",
   facebookURL:  "https://www.facebook.com/ESCamp29",
+  instagramURL: "https://www.instagram.com/escamp_029",
   contactEmail: "escamp029@gmail.com",
   locationText: "國立成功大學",
 
