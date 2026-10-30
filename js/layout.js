@@ -52,6 +52,10 @@
 
   if (footer) {
     const year = new Date(cfg.campStartISO).getFullYear();
+    const footerLinks = cfg.nav
+      .filter(item => item.href !== "./staff.html")
+      .map(item => `<li><a href="${item.href}">${item.text}</a></li>`)
+      .join("");
     footer.outerHTML = `
       <footer class="site-footer">
         <div class="container">
@@ -75,7 +79,7 @@
             </div>
             <div>
               <h4>頁面</h4>
-              <ul>${cfg.nav.map(i => `<li><a href="${i.href}">${i.text}</a></li>`).join("")}</ul>
+              <ul>${footerLinks}</ul>
             </div>
           </div>
           <div class="copy">© ${year} ${cfg.title}｜成大工程科學系</div>

@@ -137,6 +137,14 @@ h1, h2, h3, h4 {
   transform: rotate(-3deg);
 }
 
+.coming-soon {
+  display: inline-block;
+  color: var(--paper-light);
+  -webkit-text-stroke: 3px rgb(141 155 74);
+  font-size: clamp(32px, 5vw, 48px); font-weight: 900; line-height: 1.2; letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
 /* 小標籤（kicker） */
 .kicker {
   font-size: 13px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;

@@ -26,7 +26,7 @@ window.CAMP_CONFIG = {
   nav: [
     { href: "./index.html",      text: "首頁" },
     { href: "./about.html",      text: "關於我們" },
-    { href: "./staff.html",      text: "幹部介紹" },
+    //{ href: "./staff.html",      text: "幹部介紹" },
     { href: "./admissions.html", text: "名單與行前通知" },
     { href: "./memories.html",   text: "回憶牆" }
   ]
