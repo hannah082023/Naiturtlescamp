@@ -69,6 +69,7 @@
               <ul>
                 <li><a href="mailto:${cfg.contactEmail}">${cfg.contactEmail}</a></li>
                 <li><a href="${cfg.facebookURL}" target="_blank" rel="noopener">Facebook 粉絲專頁</a></li>
+                <li><a href="${cfg.instagramURL}" target="_blank" rel="noopener">Instagram 帳號</a></li>
                 <li>${cfg.locationText}</li>
               </ul>
             </div>

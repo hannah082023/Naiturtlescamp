@@ -8,14 +8,14 @@
 /* ---------- 1. 設計變數（Design Tokens） ---------- */
 :root {
   /* 顏色：直接從 logo / 海報取色 */
-  --paper:        #FFF9DC;  /* 紙底（海報底色） */
+  --paper:        #fdefae;  /* 紙底（海報底色） */
   --paper-light:  #FFFDEC;  /* 分格內底色 */
   --paper-dark:   #F4EAC0;  /* 較深的紙色，用於區隔 */
   --ink:          #49310B;  /* 墨咖啡：主色、文字、框線（ESC28 字條） */
   --ink-soft:     #6E5420;  /* 次要文字 */
   --muted:        #8A7442;  /* 說明文字、標註 */
   --yellow:       #F7D047;  /* 品牌黃（logo 字色） */
-  --yellow-soft:  #FCE376;  /* 淡黃（格紋、網點） */
+  --yellow-soft:  #f9e58b;  /* 淡黃（格紋、網點） */
 
   /* 字體 */
   --font-serif: "Noto Serif TC", "Songti TC", serif;       /* 標題 */
