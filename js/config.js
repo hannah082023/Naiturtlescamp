@@ -4,21 +4,21 @@
 // =========================================================
 window.CAMP_CONFIG = {
   // 營隊名稱（會出現在頁首、頁尾、首頁）
-  title: "第28屆工程科學營",
-  shortTitle: "ESC28",
+  title: "第29屆工程科學營",
+  shortTitle: "ESC29",
 
   // 首頁右上的狀態格會依現在時間自動切換：
-  regDeadlineISO: "2025-12-14T23:59:59+08:00",  // 報名截止
-  campStartISO:   "2026-02-09T13:00:00+08:00",  // 報到時間
-  campEndISO:     "2026-02-13T17:00:00+08:00",  // 結束時間
+  regDeadlineISO: "2026-12-20T23:59:59+08:00",  // 報名截止
+  campStartISO:   "2027-02-08T13:00:00+08:00",  // 報到時間
+  campEndISO:     "2027-02-12T17:00:00+08:00",  // 結束時間
 
   // 不想顯示就設成 null
-  nextCamp: { name: "ESC29th", startISO: "2027-01-29T13:00:00+08:00" },
+  nextCamp: { name: "ESC30th", startISO: "2028-02-05T13:00:00+08:00" },
 
   // 外部連結
   applyFormURL: "https://forms.gle/uqSboLAzN2wxKiBq9",
   facebookURL:  "https://www.facebook.com/ESCamp29",
-  contactEmail: "escamp028@gmail.com",
+  contactEmail: "escamp029@gmail.com",
   locationText: "國立成功大學",
 
   // 導覽列
